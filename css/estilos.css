@@ -1,0 +1,91 @@
+
+:root{
+    --primary: #005aa8;
+    --danger: #FF0000;
+    --white: #FFFFFF;
+    --warning:  #ffe600;
+    --success: #00ad26;
+    --info: #009ac9;   
+    --black: #000;
+}
+
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dark{
+    color: var(--white); 
+}
+
+.container{
+  background-color: #201E2B;
+  padding: 100px 100px 100px 100px;
+}
+
+.container-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.container-content h1{
+    color: #fff;
+    font-size: 25px;
+    padding: 2rem;
+}
+
+li {
+    list-style: none; /*sacarle los puntos en negro*/
+}
+
+
+/* Clases de alineamiento*/
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.navbar-nav {
+    background: var(--primary);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around; /*centramos*/
+}
+
+.img-main {
+
+
+}
+
+.img-fluid {
+    width: 100%;
+    height: 20%;
+}
+.footer-content {
+    background-color: #231C2B;
+}
+
+.iconos {
+    background-color: #30243A;
+    border: none;
+    padding: 50  50 50 50;
+}
